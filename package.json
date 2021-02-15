@@ -1,0 +1,16 @@
+{
+  "name": "voter-tracking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tracking.js",
+  "dependencies": {},
+  "devDependencies": {
+    "minify": "^7.0.1"
+  },
+  "scripts": {
+    "build": "minify tracking.js > tracking.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

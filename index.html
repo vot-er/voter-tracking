@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <script src="./tracking.js"></script>
+    <script>
+    var eventTracker = EventTracker('http://localhost:5000/api/events', '')
+    eventTracker.track({
+      type: 'visit'
+    })</script>
+  </head>
+  <body>
+    <a href="google.com" target="_blank">Test</a>
+  </body>
+  <footer>
+    <script>eventTracker.trackAllLinks()</script>
+  </footer>
+</html>
